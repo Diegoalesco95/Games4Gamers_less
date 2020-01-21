@@ -12,7 +12,9 @@
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
-  color: #333333;
+  color: #FFFFFF;
+  background-color: #333333;
+  font-size: 18px;
   line-height: 28px;
 }
 h1,
@@ -29,7 +31,7 @@ h3 {
   padding: 10px;
   margin: 0 auto;
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #8841da;
   box-shadow: 0px 5px 15px 0px rgba(51, 51, 51, 0.5);
 }
 .intro__imagen {
@@ -61,6 +63,7 @@ h3 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 50px;
+  line-height: 60px;
 }
 .intro__autor {
   width: 150px;
@@ -89,19 +92,22 @@ h3 {
   margin: 0 auto;
 }
 .articulo--principal__intro {
-  font-size: 26px;
+  font-size: 25px;
+  line-height: 35px;
 }
 .articulo--principal h2 {
   margin: 40px 0 40px 0;
-  font-size: 50px;
   text-align: center;
+  font-size: 50px;
+  line-height: 60px;
+  color: #8841da;
 }
 .articulo--principal h3 {
   color: #8841da;
 }
 .contenedor--cajas {
   width: 1400px;
-  margin: 0 auto;
+  margin: 20 auto;
   display: flex;
   justify-content: space-evenly;
 }
@@ -110,18 +116,19 @@ h3 {
   box-shadow: 0px 5px 15px 0px rgba(51, 51, 51, 0.5);
 }
 .caja__contenido {
+  height: 254px;
   padding: 25px;
-  background-color: #FFFFFF;
+  background-color: #8841da;
 }
 .caja span {
-  color: #8841da;
+  color: #FFFFFF;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
 .caja a {
   text-decoration: none;
-  color: #012179;
+  color: #FFFFFF;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-weight: 700;

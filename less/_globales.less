@@ -14,16 +14,22 @@
   text-transform: uppercase;
   font-weight: 700;
 }
+.fuente(@font-size){
+  font-size: @font-size;
+  line-height: @font-size + 10%;
+}
+
 *{
   box-sizing: border-box;
 }
 body {
   margin: 0;
   font-family: @fuente1;
-  color: @color-primario;
-  line-height: @fuente-base + 10%;
+  color: @color-claro;
+  background-color: @color-primario;
+  .fuente(@fuente-base);
 }
-h1,h2,h3 {
+h1, h2, h3 {
   margin: 0;
   .oswald;
 }
