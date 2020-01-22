@@ -2,15 +2,15 @@
 @color-claro: #FFFFFF;
 @color-secundario: #8841da;
 @color-variacion: #012179;
-@fuente1: 'Lato', sans-serif;
-@fuente2: 'Oswald', sans-serif;
-@fuente-base: 18px;
+@Fuente1: 'Lato', sans-serif;
+@Fuente2: 'Oswald', sans-serif;
+@Fuente-base: 18px;
 
 .sombra-caja {
   box-shadow: 0px 5px 15px 0px fade(@color-primario, 50%);
 }
-.oswald {
-  font-family: @fuente2;
+.Oswald {
+  font-family: @Fuente2;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -24,12 +24,12 @@
 }
 body {
   margin: 0;
-  font-family: @fuente1;
+  font-family: @Fuente1;
   color: @color-claro;
   background-color: @color-primario;
-  .fuente(@fuente-base);
+  .fuente(@Fuente-base);
 }
 h1, h2, h3 {
   margin: 0;
-  .oswald;
+  .Oswald;
 }
